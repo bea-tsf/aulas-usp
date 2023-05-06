@@ -5,10 +5,12 @@
 
 /* INICIO ESTRUTURAS E FUNCOES RELATIVAS AO GRAFO */
 
-no * criarNo(char * nome) {
+no * criarNo(char * nome, int indice) {
   no * novoNo = (no * ) malloc(sizeof(no));
   strcpy(novoNo -> nomeVertice, nome);
   novoNo -> prox = NULL;
+  novoNo -> cor = BRANCO;
+  novoNo -> indice = indice;
   return novoNo;
 }
 

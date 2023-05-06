@@ -7,10 +7,6 @@
 
 /* INICIO DFS */
 
-#define BRANCO 0
-#define CINZA 1
-#define PRETO 2
-
 void DFS(Grafo *grafo, char * vertice) {
     int indiceVertice = buscarVertice(vertice, grafo);
     no* listaAdj = grafo->listaAdj[indiceVertice];
