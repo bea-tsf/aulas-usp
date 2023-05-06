@@ -18,8 +18,8 @@ typedef struct Grafo {
 
 no * criarNo(char * nome, int indice);
 Grafo * criarGrafo(int vertices);
-int listasOcupadas(Grafo * grafo);
-int buscarVertice(char * nome, Grafo * grafo);
-void adicionarConexao(Grafo * grafo, char * v1, char * v2);
+//int listasOcupadas(Grafo * grafo);
+//int buscarVertice(char * nome, Grafo * grafo);
+void adicionarConexao(Grafo * grafo, int i1, int i2);       //usa índices inteiros ao invés de nomes
 void imprimirGrafo(Grafo * grafo);
 void destruirGrafo(Grafo * grafo);
