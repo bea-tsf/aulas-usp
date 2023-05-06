@@ -1,0 +1,1 @@
+Repositório para desenvolvimento de exercícios e exercícios-programa da disciplina Algoritmos e Estruturas de Dados II
